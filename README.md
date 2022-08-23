@@ -13,7 +13,7 @@ the other collections get populated depending on actions.
 in file server\config\config.example.js rename file to server\config\config.js
 then ....
 change '<username>' to your mongodb username ie "Johnny" (no quotations) before the : then change '<password>' to your collection password
-dbURL: "mongodb+srv://<username>:<password>@cluster1.nymha.mongodb.net/<collection>",
+dbURL: "mongodb+srv://username:password@cluster1.nymha.mongodb.net/collection",
 
 This file runs from Root directory /pixarDirectory using "npm start"
 it runs client side and server side concurrently
